@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETKFreelancer | Digital Product & Web Engineering Studio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .gradient-brand {
+            background: linear-gradient(135deg, #0ea5e9 0%, #14b8a6 50%, #eab308 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-grid-pattern {
+            background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased bg-grid-pattern selection:bg-teal-500 selection:text-white">
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="border-b border-slate-800/80 bg-slate-900/60 backdrop-blur-xl sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl font-black tracking-wider text-white">ETK<span class="text-teal-400">Freelancer</span></span>
+                <span class="hidden sm:inline-block text-[10px] bg-slate-800 text-slate-300 font-mono px-2.5 py-1 rounded-full border border-slate-700">DIVISI INDONESIA</span>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#services" class="hover:text-teal-400 transition">Layanan & Produksi</a>
+                <a href="#telemetry" class="hover:text-teal-400 transition">Digital Tracking</a>
+                <a href="#about" class="hover:text-teal-400 transition">Tentang ETKGlobal</a>
+            </nav>
+
+            <a href="#contact" class="bg-gradient-to-r from-teal-500 to-sky-500 hover:from-teal-400 hover:to-sky-400 text-slate-950 font-bold text-xs uppercase tracking-wider px-5 py-2.5 rounded-lg shadow-lg shadow-teal-500/20 transition">
+                Mulai Proyek
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="max-w-5xl mx-auto px-6 pt-24 pb-20 text-center relative">
+        <div class="inline-flex items-center space-x-2 bg-slate-900/80 border border-slate-800 px-4 py-1.5 rounded-full text-xs font-mono text-teal-400 mb-8">
+            <span class="w-2 h-2 rounded-full bg-teal-400 animate-ping"></span>
+            <span>Enterprise-Grade Web & Marketing Engineering</span>
+        </div>
+        
+        <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-white mb-6 leading-tight">
+            Digital Asset Berperforma Tinggi. <br>
+            <span class="gradient-brand">Terintegrasi & Siap Cetak ROI.</span>
+        </h1>
+        
+        <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+            Kami menjembatani desain UI/UX kelas dunia, arsitektur *clean code*, dan infrastruktur pelacakan data (*telemetry*) presisi untuk skala bisnis UMKM hingga korporasi global.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a href="#contact" class="w-full sm:w-auto bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold px-8 py-3.5 rounded-xl transition shadow-lg shadow-teal-500/20">
+                Konsultasi Email Bisnis
+            </a>
+            <a href="#services" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-850 text-slate-200 font-semibold px-8 py-3.5 rounded-xl border border-slate-800 transition">
+                Lihat Portfolio & Fitur
+            </a>
+        </div>
+    </section>
+
+    <!-- CORE SERVICES SHOWCASE -->
+    <section id="services" class="max-w-7xl mx-auto px-6 py-20 border-t border-slate-900">
+        <div class="text-center mb-16">
+            <h2 class="text-2xl sm:text-4xl font-bold text-white mb-4">Solusi Digital Tersegmentasi</h2>
+            <p class="text-slate-400 text-sm max-w-xl mx-auto">Diproduksi secara profesional mengikuti standar operasional ETKGlobal.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-sky-500/50 transition">
+                <div class="w-12 h-12 bg-sky-950 text-sky-400 rounded-xl flex items-center justify-center font-bold text-xl mb-6">🚀</div>
+                <h3 class="text-xl font-bold text-white mb-3">High-Converting Landing Page</h3>
+                <p class="text-slate-400 text-xs leading-relaxed mb-6">Dirancang khusus untuk kampanye iklan kilat (Meta & Google Ads) dengan kecepatan respon optimal dan fokus pada konversi.</p>
+                <span class="text-[10px] font-mono text-sky-400 bg-sky-950/60 px-3 py-1 rounded border border-sky-900">CRO Focused</span>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-teal-500/50 transition">
+                <div class="w-12 h-12 bg-teal-950 text-teal-400 rounded-xl flex items-center justify-center font-bold text-xl mb-6">🏢</div>
+                <h3 class="text-xl font-bold text-white mb-3">Corporate Architecture</h3>
+                <p class="text-slate-400 text-xs leading-relaxed mb-6">Website Company Profile multi-halaman berestetika tinggi untuk membangun kredibilitas B2B dan otoritas pasar.</p>
+                <span class="text-[10px] font-mono text-teal-400 bg-teal-950/60 px-3 py-1 rounded border border-teal-900">Enterprise Ready</span>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-yellow-500/50 transition">
+                <div class="w-12 h-12 bg-yellow-950 text-yellow-400 rounded-xl flex items-center justify-center font-bold text-xl mb-6">🛒</div>
+                <h3 class="text-xl font-bold text-white mb-3">Seamless E-Commerce</h3>
+                <p class="text-slate-400 text-xs leading-relaxed mb-6">Toko online responsif dengan optimasi alur pembayaran dan sistem manajemen stok yang efisien.</p>
+                <span class="text-[10px] font-mono text-yellow-400 bg-yellow-950/60 px-3 py-1 rounded border border-yellow-900">Scalable Architecture</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTEGRATED CONTACT & SOHOMAIL FORM -->
+    <section id="contact" class="max-w-4xl mx-auto px-6 py-20 border-t border-slate-900">
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-teal-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="text-center mb-10">
+                <span class="text-xs font-mono text-teal-400 tracking-widest uppercase">Official Corporate Communication</span>
+                <h2 class="text-3xl font-bold text-white mt-2 mb-3">Hubungi Tim Strategis Kami</h2>
+                <p class="text-slate-400 text-xs sm:text-sm">Pesan Anda akan langsung terkirim ke server Zoho Mail Resmi ETKGlobal.</p>
+            </div>
+
+            <!-- Form Terintegrasi ke Email Zoho (Gunakan Formspree / Web3Forms) -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6">
+                
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-mono text-slate-300 mb-2">NAMA LENGKAP / PERUSAHAAN</label>
+                        <input type="text" name="name" required placeholder="Contoh: PT Sukses Mandiri" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 focus:outline-none focus:border-teal-500 transition">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-mono text-slate-300 mb-2">ALAMAT EMAIL KLIEN</label>
+                        <input type="email" name="email" required placeholder="nama@perusahaan.com" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 focus:outline-none focus:border-teal-500 transition">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-mono text-slate-300 mb-2">JENIS PROYEK YANG DIBUTUHKAN</label>
+                    <select name="project_type" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-300 focus:outline-none focus:border-teal-500 transition">
+                        <option value="Landing Page">Landing Page Optimization</option>
+                        <option value="Corporate Website">Corporate Website / Company Profile</option>
+                        <option value="E-Commerce Store">E-Commerce Development</option>
+                        <option value="Custom System / Dashboard">Custom Web Application</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-mono text-slate-300 mb-2">DESKRIPSI RINGKAS KEBUTUHAN</label>
+                    <textarea name="message" rows="4" required placeholder="Jelaskan tujuan bisnis atau tantangan yang ingin Anda selesaikan..." class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-100 focus:outline-none focus:border-teal-500 transition"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold py-4 rounded-xl transition shadow-lg shadow-teal-500/20 uppercase tracking-wider text-xs">
+                    Kirim Pesan Resmi
+                </button>
+            </form>
+
+            <!-- Informasi Kontak Bisnis Resmi -->
+            <div class="mt-10 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-400 gap-4 font-mono">
+                <div>
+                    <span>Official Email: </span>
+                    <a href="mailto:contact@etkglobal.com" class="text-teal-400 underline">contact@etkglobal.com</a>
+                </div>
+                <div>
+                    <span>Personal Business ID: </span>
+                    <span class="text-slate-200">gasfarrasyid@etkglobal.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-10 text-center text-xs text-slate-500 font-mono">
+        <div class="max-w-7xl mx-auto px-6 space-y-2">
+            <p>ETKFreelancer adalah divisi independen resmi dari ETKGlobal Indonesia.</p>
+            <p>&copy; 2026 ETKGlobal - ETKFreelancer. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
