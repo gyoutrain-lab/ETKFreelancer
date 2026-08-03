@@ -3,18 +3,20 @@
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/fastwork/</loc>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/fiverr/</loc>
-  </url>
-
-  <url>
-    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/upwork/</loc>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/privacy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>
