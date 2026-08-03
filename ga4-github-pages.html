@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to Install Google Analytics 4 on GitHub Pages | ETKFreelancer</title>
+
+  <meta name="description" content="Step-by-step guide to install Google Analytics 4 on GitHub Pages, verify Realtime data, avoid common mistakes, and keep your sitemap and indexing healthy.">
+
+  <link rel="canonical" href="https://gyoutrain-lab.github.io/ETKFreelancer/ga4-github-pages.html">
+
+  <meta property="og:title" content="How to Install Google Analytics 4 on GitHub Pages">
+  <meta property="og:description" content="Practical GA4 setup guide for GitHub Pages with verification, troubleshooting, and SEO-friendly implementation.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://gyoutrain-lab.github.io/ETKFreelancer/ga4-github-pages.html">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Install Google Analytics 4 on GitHub Pages",
+    "description": "Step-by-step GA4 installation guide for GitHub Pages with verification and SEO considerations.",
+    "author": {
+      "@type": "Person",
+      "name": "Giyono A."
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ETKFreelancer"
+    },
+    "mainEntityOfPage": "https://gyoutrain-lab.github.io/ETKFreelancer/ga4-github-pages.html"
+  }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <style>
+    body{
+      font-family: Inter, system-ui, sans-serif;
+      background:#020617;
+      color:#e2e8f0;
+      margin:0;
+      line-height:1.8;
+    }
+    .container{
+      max-width:860px;
+      margin:0 auto;
+      padding:48px 24px;
+    }
+    h1,h2{
+      color:#fff;
+      line-height:1.3;
+    }
+    h1{font-size:2.4rem;margin-bottom:1rem;}
+    h2{margin-top:3rem;font-size:1.6rem;}
+    p{color:#cbd5e1;}
+    code{
+      background:#0f172a;
+      padding:2px 6px;
+      border-radius:6px;
+      color:#a7f3d0;
+    }
+    pre{
+      background:#0f172a;
+      border:1px solid #1e293b;
+      border-radius:16px;
+      padding:18px;
+      overflow:auto;
+      color:#e2e8f0;
+    }
+    a{color:#34d399;}
+    .back{
+      margin-top:48px;
+      padding-top:24px;
+      border-top:1px solid #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+
+    <h1>How to Install Google Analytics 4 on GitHub Pages</h1>
+
+    <p>
+      Google Analytics 4 (GA4) is one of the most important tools for measuring website traffic,
+      engagement, and conversion activity. If your website is hosted on GitHub Pages, the setup is
+      simpler than many people expect, but a few details can affect indexing, reporting accuracy,
+      and long-term SEO analysis.
+    </p>
+
+    <p>
+      This guide follows the same technical approach used on the ETKFreelancer project, including
+      canonical consistency, sitemap integration, and verification of the GA4 installation after deployment.
+    </p>
+
+    <h2>Why GA4 Matters for SEO and Conversions</h2>
+
+    <p>
+      GA4 does not directly improve rankings, but it helps you understand which pages attract
+      search traffic, how visitors interact with your content, and which actions lead to inquiries,
+      clicks, or conversions.
+    </p>
+
+    <p>For a GitHub Pages business site, GA4 is useful for:</p>
+
+    <ul>
+      <li>Tracking organic traffic from Google</li>
+      <li>Measuring engagement on service pages</li>
+      <li>Monitoring clicks on contact or WhatsApp buttons</li>
+      <li>Identifying pages with high bounce or low engagement</li>
+      <li>Comparing performance before and after SEO changes</li>
+    </ul>
+
+    <h2>Create a GA4 Property</h2>
+
+    <p>
+      Go to <a href="https://analytics.google.com" target="_blank" rel="noopener">analytics.google.com</a>
+      and create a new property for your GitHub Pages website.
+    </p>
+
+    <p>Use your public site URL, for example:</p>
+
+    <pre><code>https://gyoutrain-lab.github.io/ETKFreelancer/</code></pre>
+
+    <p>
+      After the property is created, choose <strong>Web</strong> as the data stream type.
+    </p>
+
+    <h2>Get the Measurement ID</h2>
+
+    <p>
+      Google will provide a Measurement ID that looks like this:
+    </p>
+
+    <pre><code>G-XXXXXXXXXX</code></pre>
+
+    <p>
+      Copy this value. You will use it in the tracking code.
+    </p>
+
+    <h2>Add the Google Tag to GitHub Pages</h2>
+
+    <p>
+      Open your <code>index.html</code> file and place the GA4 code inside the
+      <code><head></code> section, before the closing <code></head></code> tag.
+    </p>
+
+    <pre><code><script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script></code></pre>
+
+    <p>
+      Replace <code>G-XXXXXXXXXX</code> with your real Measurement ID.
+    </p>
+
+    <h2>Verify Realtime Data</h2>
+
+    <p>
+      Commit and deploy the changes to GitHub Pages. Then open your website in a new browser tab
+      and visit a few pages.
+    </p>
+
+    <p>In GA4, go to:</p>
+
+    <pre><code>Reports → Realtime</code></pre>
+
+    <p>
+      You should see at least one active user within a few seconds. If Realtime works, the tag is
+      installed correctly.
+    </p>
+
+    <h2>Common GitHub Pages Mistakes</h2>
+
+    <p>The most frequent problems are:</p>
+
+    <ul>
+      <li>Using the wrong Measurement ID</li>
+      <li>Placing the script outside the <code><head></code></li>
+      <li>Editing a local file but not committing to GitHub</li>
+      <li>Checking the old deployed version due to browser cache</li>
+      <li>Using a different canonical URL than the live site</li>
+    </ul>
+
+    <p>
+      For repository-based GitHub Pages sites, make sure the canonical URL includes the repository name:
+    </p>
+
+    <pre><code>https://gyoutrain-lab.github.io/ETKFreelancer/</code></pre>
+
+    <h2>Update Sitemap and Request Indexing</h2>
+
+    <p>
+      If you create new articles or guides, add them to <code>sitemap.xml</code> so search engines
+      can discover them more quickly.
+    </p>
+
+    <p>Example:</p>
+
+    <pre><code><url>
+  <loc>https://gyoutrain-lab.github.io/ETKFreelancer/ga4-github-pages.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url></code></pre>
+
+    <p>
+      Then open Google Search Console and request indexing for the new page.
+    </p>
+
+    <h2>Conclusion</h2>
+
+    <p>
+      A correct GA4 installation on GitHub Pages takes only a few minutes, but it becomes much
+      more valuable when combined with a clean canonical setup, a working sitemap, internal links,
+      and structured data.
+    </p>
+
+    <p>
+      On the ETKFreelancer project, the GA4 verification was one of the final technical steps after
+      fixing crawlability, sitemap coverage, URL normalization, and internal linking. Once those
+      foundations are stable, analytics data becomes reliable enough to guide future SEO and content decisions.
+    </p>
+
+    <div class="back">
+      <p>
+        ← <a href="/ETKFreelancer/technical-seo-checklist.html">Return to the Technical SEO Checklist</a>
+      </p>
+      <p>
+        ← <a href="/ETKFreelancer/">Back to ETKFreelancer homepage</a>
+      </p>
+    </div>
+
+  </main>
+</body>
+</html>
