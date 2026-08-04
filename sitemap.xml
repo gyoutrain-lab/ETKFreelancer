@@ -3,100 +3,58 @@
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/about.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/contact.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/privacy.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/terms.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-  <url>
-    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/seo-google-search-console.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/optimasi-kecepatan-website.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/panduan-website-layak-adsense.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/cara-membuat-sitemap-github-pages.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
-  </url>
-
-  <url>
-    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/technical-seo-checklist.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/ga4-github-pages.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/internal-linking-github-pages.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/optimasi-kecepatan-website.html</loc>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/page-speed-github-pages.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/panduan-website-layak-adsense.html</loc>
   </url>
 
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/schema-markup-small-business.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/seo-google-search-console.html</loc>
+  </url>
+
+  <url>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/technical-seo-checklist.html</loc>
   </url>
 
 </urlset>
