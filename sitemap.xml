@@ -1,60 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+  
+  <!-- Halaman Utama (Homepage) -->
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
 
+  <!-- Halaman Utama Lainnya & Portofolio -->
+  <url>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/fastwork/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/fiverr/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gyoutrain-lab.github.io/ETKFreelancer/upwork/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Halaman Informasi & Legalitas -->
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/privacy.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/terms.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
+  <!-- Halaman Artikel / Blog / Panduan SEO -->
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/cara-membuat-sitemap-github-pages.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/ga4-github-pages.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/internal-linking-github-pages.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/optimasi-kecepatan-website.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/page-speed-github-pages.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/panduan-website-layak-adsense.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/schema-markup-small-business.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/seo-google-search-console.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/technical-seo-checklist.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
