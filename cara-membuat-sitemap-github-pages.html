@@ -3,18 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <title>How to Create a Sitemap for GitHub Pages | ETKFreelancer Studio</title>
-  <meta name="description" content="Learn how to create a valid XML sitemap and robots.txt for GitHub Pages to improve Google indexing and crawling.">
+  <meta name="description" content="Learn how to create a valid XML sitemap and robots.txt for GitHub Pages to improve Google indexing, crawling efficiency, and technical SEO performance.">
   <link rel="canonical" href="https://gyoutrain-lab.github.io/ETKFreelancer/cara-membuat-sitemap-github-pages.html">
 </head>
 <body>
-  <h1>How to Create a Sitemap for GitHub Pages</h1>
+  <main>
+    <article>
+      <h1>How to Create a Sitemap for GitHub Pages: A Complete Technical Guide</h1>
 
-  <p>An XML sitemap helps search engines discover and prioritize the pages of a website.</p>
+      <p>An XML sitemap serves as a vital roadmap for search engines, helping web crawlers discover, prioritize, and index the pages of a website efficiently. For developers publishing static sites using GitHub Pages, implementing a proper sitemap structure is a crucial step in technical SEO.</p>
 
-  <p>For GitHub Pages projects, sitemap.xml and robots.txt should be placed in the root directory of the repository so they can be accessed directly by Google.</p>
+      <h2>1. Why XML Sitemaps Matter for GitHub Pages</h2>
+      <p>GitHub Pages hosts static websites that rely heavily on clean URLs and correct directory paths. Without an XML sitemap, search engine bots like Googlebot have to rely entirely on standard internal links to discover new pages. A well-structured sitemap ensures that your home page, service portfolios, and technical articles are all crawled and indexed in a timely manner.</p>
 
-  <p>This page supports the technical SEO structure used by ETKFreelancer Studio.</p>
+      <h2>2. Where to Place Your Sitemap and Robots.txt</h2>
+      <p>For GitHub Pages projects, the <code>sitemap.xml</code> and <code>robots.txt</code> files must be placed directly in the **root directory** of your repository branch. This ensures they are accessible via standard public URLs:</p>
+      <ul>
+        <li><strong>Sitemap URL:</strong> <code>https://yourusername.github.io/repository-name/sitemap.xml</code></li>
+        <li><strong>Robots URL:</strong> <code>https://yourusername.github.io/repository-name/robots.txt</code></li>
+      </ul>
 
-  <p><a href="./">Return to homepage</a></p>
+      <h2>3. Handling Jekyll and Static Processing Quirks</h2>
+      <p>By default, GitHub Pages uses the Jekyll static site generator, which can sometimes alter file headers or ignore files starting with underscores or specific extensions. To ensure your XML file is served smoothly without interference, it is recommended to include a blank <code>.nojekyll</code> file in your root repository to disable Jekyll processing entirely.</p>
+
+      <h2>4. Best Practices for Sitemap Maintenance</h2>
+      <p>As your website grows with new case studies, freelance portfolios, or publishing guides, remember to keep your sitemap updated. Regularly testing your URLs via Google Search Console and requesting manual live inspections helps prevent common fetching errors and accelerates organic visibility.</p>
+
+      <h2>Conclusion</h2>
+      <p>Implementing a clean sitemap on GitHub Pages is a straightforward process that yields long-term technical SEO benefits. By combining a valid XML structure with proper Google Search Console submission, your publishing platform will be fully optimized for organic growth and monetization frameworks.</p>
+    </article>
+
+    <nav style="margin-top: 30px;">
+      <p><a href="./">Return to homepage</a></p>
+    </nav>
+  </main>
 </body>
 </html>
