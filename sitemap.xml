@@ -8,7 +8,7 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Halaman Utama Lainnya & Portofolio -->
+  <!-- Halaman Portofolio / Sub-folder -->
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/fastwork/</loc>
     <changefreq>monthly</changefreq>
@@ -25,7 +25,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Halaman Informasi & Legalitas -->
+  <!-- Halaman Informasi & Legal -->
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/about.html</loc>
     <changefreq>monthly</changefreq>
@@ -47,7 +47,7 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- Halaman Artikel / Blog / Panduan SEO -->
+  <!-- Halaman Artikel & Panduan -->
   <url>
     <loc>https://gyoutrain-lab.github.io/ETKFreelancer/cara-membuat-sitemap-github-pages.html</loc>
     <changefreq>monthly</changefreq>
