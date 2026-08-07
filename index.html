@@ -246,7 +246,8 @@
                 <p class="text-xs text-slate-400 mt-1">Submit your project scope directly to our technical engineering lead.</p>
             </div>
 
-            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-5">
+            <!-- Form dengan Meta Pixel Lead Tracking Integration -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" onsubmit="fbq('track', 'Lead');" class="space-y-5">
                 <div class="grid sm:grid-cols-2 gap-5">
                     <div>
                         <label class="block text-xs font-mono text-slate-400 mb-2">COMPANY / CLIENT NAME</label>
