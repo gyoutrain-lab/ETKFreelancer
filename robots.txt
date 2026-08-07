@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://gyoutrain-lab.github.io/ETKFreelancer/sitemap.xml
