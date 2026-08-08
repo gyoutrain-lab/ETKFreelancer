@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis HTTP Status Code 200, 301, dan 404 bagi Bot - Grand Gate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-white">
+
+    <!-- NAVBAR HEADER -->
+    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="file-04.html" class="text-xl font-bold tracking-wider text-cyan-400 hover:text-cyan-300 transition">&larr; Sebelumnya: Topik [04]</a>
+            <nav class="hidden md:flex space-x-6 text-sm text-slate-300">
+                <span class="text-cyan-400 font-mono">[05 / 100]</span>
+                <a href="file-06.html" class="hover:text-cyan-400 transition">Berikutnya: Topik [06] &rarr;</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN ARTICLE CONTENT -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-10 shadow-2xl">
+            
+            <div class="mb-6">
+                <span class="bg-cyan-500/10 text-cyan-400 text-xs font-mono px-3 py-1 rounded-full border border-cyan-500/20">Pilar 1: Technical SEO</span>
+                <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mt-4 mb-4">
+                    Analisis HTTP Status Code 200, 301, dan 404 bagi Bot
+                </h1>
+                <p class="text-slate-400 text-sm">Dipublikasikan dalam Arsitektur Matrix Perayapan &bull; 0 Orphan Pages Verified</p>
+            </div>
+
+            <hr class="border-slate-800 mb-8">
+
+            <div class="space-y-6 text-slate-300 leading-relaxed">
+                <p>
+                    Ketika robot perayap mesin pencari mengunjungi sebuah URL di website Anda, respons pertama yang diterima bukanlah teks atau gambar, melainkan kode status HTTP (<em>HTTP Status Code</em>). Kode tiga digit ini menjadi sinyal mutlak bagi bot untuk memutuskan apakah halaman tersebut layak diindeks, dialihkan, atau diabaikan.
+                </p>
+
+                <h2 class="text-2xl font-bold text-white pt-4">Memahami Makna Kode Status Utama</h2>
+                <p>
+                    Terdapat tiga kode status yang paling esensial dalam pemeliharaan arsitektur SEO teknis:
+                </p>
+                <ul class="list-disc pl-6 space-y-2 text-slate-300">
+                    <li><strong>Status 200 (OK):</strong> Menandakan bahwa halaman berhasil dimuat tanpa hambatan dan siap untuk dirayapi serta diindeks.</li>
+                    <li><strong>Status 301 (Moved Permanently):</strong> Digunakan untuk mengalihkan URL lama ke URL baru secara permanen, sekaligus mentransfer bobot peringkat halaman (<em>link equity</em>). Pastikan Anda telah menerapkan pencegahan duplikasi seperti dibahas pada <a href="file-04.html" class="text-cyan-400 font-semibold hover:underline">Memahami Peran Canonical Tag untuk Mencegah Konten Duplikat</a>.</li>
+                    <li><strong>Status 404 (Not Found):</strong> Menandakan halaman tidak ditemukan. Jika terjadi terlalu banyak pada tautan internal yang valid, hal ini akan merusak pengalaman bot dan menghabiskan anggaran perayapan.</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-white pt-4">Optimalisasi Respons Server dan Perayapan</h2>
+                <p>
+                    Menjaga agar seluruh file turunan Anda memberikan respons 200 OK adalah kunci utama kelancaran indeksasi. Anda juga perlu memantau aktivitas bot dan konfigurasi direktori seperti yang diuraikan dalam panduan <a href="file-09.html" class="text-cyan-400 font-semibold hover:underline">Mengatur File Robots.txt yang Ramah Perayap</a> serta mendongkrak performa muat halaman pada topik <a href="file-06.html" class="text-cyan-400 font-semibold hover:underline">Optimasi Kecepatan Rendering Halaman di Bawah 2 Detik</a>.
+                </p>
+
+                <h2 class="text-2xl font-bold text-white pt-4">Kesimpulan</h2>
+                <p>
+                    Pemantauan status HTTP secara berkala memastikan tidak ada jalur tautan berantai yang putus. Dengan respon server yang bersih dan responsif, bot pencari dapat bekerja secara efisien menyusuri seluruh ekosistem situs Anda.
+                </p>
+            </div>
+
+            <!-- ARTICLE NAVIGATION FOOTER -->
+            <div class="mt-12 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <a href="file-04.html" class="text-sm text-slate-400 hover:text-cyan-400 transition">&larr; Kembali ke Topik [04]</a>
+                <a href="file-06.html" class="bg-cyan-500 hover:bg-cyan-600 text-slate-950 font-semibold px-5 py-2.5 rounded-lg text-sm transition shadow-lg shadow-cyan-500/20">Lanjut ke Topik [06] &rarr;</a>
+            </div>
+
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+        &copy; 2026 Grand Gate Matrix Architecture. File-05 Ready for Deployment.
+    </footer>
+
+</body>
+</html>
